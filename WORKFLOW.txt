@@ -1,0 +1,23 @@
+1. @@try to calculate molecular descriptors using "inchi string" 
+# pubchem. inchikey.Initial processing of the csv file ("merged_on_Approval_ID.csv") for getting unique INCHIKEY/SMILES.
+     Deleting duplicate INCHIKEY from the "merged_on_Approval_ID.csv". unique_inchikeys. 
+
+  # Checking the effectiveness of deleting duplicate INCHIKEY by agian deleting the duplicate SMILES values and
+    checking the differnce between these two files (two files should be identical). unique_smiles
+
+  # Generating files containing finally selected SMILES from "U_SMILES.csv" and SMILES and INCHIKEY from 
+    the "unique_inchikeys.csv". "SMILES = SMILES1". # Select the desired columns- 
+    result_df = merged_df[['SMILES1', 'SMILES', 'INCHIKEY']]
+
+  # Convert the INCHIKEY to inchi string using pubchempy package 
+
+
+2. Add the descriptors name as the column name 
+
+
+3. @@@ Molecular descriptors from sdf file @@ 
+   Create single sdf file from the master sdf file. remove the leading "$$$$" from each sdf file.
+   using pandas & rdkit packages, match the each smile string from "U_SMILES.csv" with the each sdf
+   file. The matched sdf file will be copied at new folder named "sdftosmile". Now, calculate the 
+   molecular descriptors for these sdf file using rdkit as well as mordred package.  
+   
