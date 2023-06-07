@@ -1,4 +1,4 @@
-# To handle a CSV file with multiple columns, including the "InChI" column, the code as follows:
+# # Calculate the molecular descriptors using rdkit from "inchi string"
 
 from rdkit import Chem
 from rdkit.ML.Descriptors import MoleculeDescriptors

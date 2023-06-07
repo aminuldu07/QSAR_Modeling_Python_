@@ -40,3 +40,6 @@ https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y
 
 13. 23 Data Sets
 https://topepo.github.io/caret/data-sets.html
+
+14. mordred descriptors 
+https://mordred-descriptor.github.io/documentation/master/descriptors.html#id1
