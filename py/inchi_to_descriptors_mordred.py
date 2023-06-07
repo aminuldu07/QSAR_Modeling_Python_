@@ -1,4 +1,9 @@
-# input CSV file and Python script are in different directories:
+# Calculate the mordred descriptors from "inchi string"
+
+# Convert the descriptors to a dictionary
+# Handle non-serializable descriptors by converting them to a string representation
+
+
 import os
 import pandas as pd
 from rdkit import Chem

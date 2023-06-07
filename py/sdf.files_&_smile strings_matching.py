@@ -35,6 +35,7 @@ for file_name in os.listdir(sdf_directory):
             # If a match is found, copy the file to the output directory
             shutil.copy(file_path, output_directory)
 
+
 # "Exception error handling" for the above function 
 def get_smiles_from_sdf(file_path):
     try:
