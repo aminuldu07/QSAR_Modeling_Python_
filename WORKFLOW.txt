@@ -15,7 +15,7 @@
 
 # Calculate the descriptors using "inchi string" using "mordred"
 
-
+ 
 2. Calculate molecular descriptors using "sdf files" 
 
 #  Create single sdf file from the master sdf file. remove the leading "$$$$" from each sdf file.

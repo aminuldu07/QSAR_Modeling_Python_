@@ -43,3 +43,6 @@ https://topepo.github.io/caret/data-sets.html
 
 14. mordred descriptors 
 https://mordred-descriptor.github.io/documentation/master/descriptors.html#id1
+
+QSAR descriptors calculation: 
+https://cadaster.eu/sites/cadaster.eu/files/challenge/descr.htm
